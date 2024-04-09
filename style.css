@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+   --nutmeg-color: hsl(14, 45%, 36%); 
+   --dark-raspberry: hsl(332, 51%, 32%);
+   --white-color: hsl(0, 0%, 100%);
+   --rose-white: hsl(330, 100%, 98%);
+   --egg-shell: hsl(30, 54%, 90%);
+   --light-grey: hsl(30, 18%, 87%);
+   --wenge-brown: hsl(30, 10%, 34%);
+   --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--egg-shell);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul, ol {
+    padding: 0 25px;
+}
+
+li {
+    padding: 10px 0 0 15px;
+}
+
+ol li::marker { 
+    color: #854632;
+    font-family: outfit;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+.container {
+    background-color: var(--white-color);
+    padding: 2rem 2rem;
+    max-width: 50%;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   border-radius: 10px;
+   margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: "Young", serif;
+    font-size: 2.5rem;
+    color: var(--dark-raspberry);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-charcoal);
+    margin-bottom: 1rem;
+}
+
+.container__hero {
+    background-color: var(--egg-shell);
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.container__hero h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    color: var(--dark-raspberry);
+    margin-bottom: 1rem;
+}
+
+.container__hero li {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-charcoal);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 2rem;
+    color: var(--dark-raspberry);
+    margin-bottom: 1rem;
+}
+
+.container__ing li {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-charcoal);
+    margin-bottom: 1rem;
+    
+}
+
+.container__inst {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-charcoal);
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 35px 0;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr{
+    border-bottom: 1px solid hsl(0, 0%, 85%);
+}
+
+table tr:last-child{
+    border-bottom: none;
+}
+
+table td {
+    padding: 15px 30px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+table td strong {
+    color: hsl(14, 45%, 36%);
+}
